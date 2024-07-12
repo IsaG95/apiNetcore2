@@ -1,4 +1,6 @@
 using apiNetcore2.Context;
+using apiNetcore2.Interface;
+using apiNetcore2.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -17,6 +19,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IGetBancos, GetBancosRepository>();
+builder.Services.AddScoped<ICanalVenta, CanalVentaRepository>();
 
 var app = builder.Build();
 
