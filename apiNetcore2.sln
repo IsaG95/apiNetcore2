@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiNetcore2", "apiNetcore2\apiNetcore2.csproj", "{6ADDE9B3-1AD1-4903-A693-F5A2913F558C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ADDE9B3-1AD1-4903-A693-F5A2913F558C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADDE9B3-1AD1-4903-A693-F5A2913F558C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADDE9B3-1AD1-4903-A693-F5A2913F558C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADDE9B3-1AD1-4903-A693-F5A2913F558C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D30DC2D-28B3-45F9-B934-C57EF332A2D1}
+	EndGlobalSection
+EndGlobal
